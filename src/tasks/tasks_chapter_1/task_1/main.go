@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func containsDuplicates(checkingArray []string) bool {
+func containsDuplicatesFirstVersion(checkingArray []string) bool {
 
 	result := false
 
@@ -19,7 +19,7 @@ func containsDuplicates(checkingArray []string) bool {
 
 func main() {
 	checkingArray := []string{"one", "two", "one"}
-	if containsDuplicates(checkingArray){
+	if containsDuplicatesFirstVersion(checkingArray){
 		fmt.Printf("Duplicates exist\n")
 	}else{
 		fmt.Printf("Duplicates don't exist\n")
