@@ -1,4 +1,4 @@
-package packages
+package methods
 
 type MyFloat float64
 
