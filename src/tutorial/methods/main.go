@@ -3,6 +3,7 @@ package main
 import (
 	"tutorial/methods/packages"
 	"fmt"
+	"math"
 )
 
 func main() {
@@ -14,4 +15,7 @@ func main() {
 	v2 := packages.Vertex2{4, 5}
 	fmt.Println(packages.Abs2(v2))
 
+	//declare a method on non-struct types
+	f := packages.MyFloat(-math.Sqrt2)
+	fmt.Println(f.Abs3())
 }
