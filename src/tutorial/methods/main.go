@@ -8,7 +8,7 @@ import (
 
 // https://tour.golang.org/methods/1
 func main() {
-	step8()
+	step9()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -78,7 +78,21 @@ func step8() {
 	fmt.Printf("After scaling: %+v, Abs: %v\n", v, v.Abs8())
 }
 
+func step9() {
+	var a methods.Abser
+	f := methods.MyFloat9(-math.Sqrt2)
+	v := methods.Vertex9{3, 4}
 
+	a = f  // a MyFloat9 implements Abser
+	a = &v // a *Vertex9 implements Abser
+
+	// In the following line, v is a Vertex9 (not *Vertex9)
+	// and does NOT implement Abser.
+// 		a = v
+
+	fmt.Printf("Step 9\n")
+	fmt.Println(a.Abs9())
+}
 
 
 
