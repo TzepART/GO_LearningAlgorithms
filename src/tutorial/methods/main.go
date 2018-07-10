@@ -8,8 +8,7 @@ import (
 
 // https://tour.golang.org/methods/1
 func main() {
-
-	step7()
+	step8()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -56,8 +55,8 @@ func step6() {
 }
 
 
+//7. The equivalent thing happens in the reverse direction.
 func step7() {
-	//7. The equivalent thing happens in the reverse direction.
 	v7 := methods.Vertex7{3, 4}
 	fmt.Println("Step 7 -", v7.Abs7())
 	fmt.Println("Step 7 -", methods.AbsFunc7(v7))
@@ -66,6 +65,18 @@ func step7() {
 	fmt.Println("Step 7 -", p7.Abs7())
 	fmt.Println("Step 7 -", methods.AbsFunc7(*p7))
 }
+
+//8. Here are two reasons to use a pointer receiver.
+//The first is so that the method can modify the value that its receiver points to.
+//The second is to avoid copying the value on each method call. This can be more efficient
+//if the receiver is a large struct, for example.
+func step8() {
+	v := &methods.Vertex8{3, 4}
+	fmt.Printf("Before scaling: %+v, Abs: %v\n", v, v.Abs8())
+	v.Scale8(5)
+	fmt.Printf("After scaling: %+v, Abs: %v\n", v, v.Abs8())
+}
+
 
 
 
