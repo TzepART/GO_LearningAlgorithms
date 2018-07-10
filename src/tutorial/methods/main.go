@@ -38,6 +38,15 @@ func main() {
 	p := &methods.Vertex6{4, 3}
 	p.Scale6(3)
 	methods.ScaleFunc6(p, 8)
-
 	fmt.Println("Step 6 -",v6, p)
+
+	//7. The equivalent thing happens in the reverse direction.
+	v7 := methods.Vertex7{3, 4}
+	fmt.Println("Step 7 -",v7.Abs7())
+	fmt.Println("Step 7 -",methods.AbsFunc7(v7))
+
+	//by pointer result similar
+	p7 := &methods.Vertex7{4, 3}
+	fmt.Println("Step 7 -",p7.Abs7())
+	fmt.Println("Step 7 -",methods.AbsFunc7(*p7))
 }
