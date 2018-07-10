@@ -8,7 +8,7 @@ import (
 
 // https://tour.golang.org/methods/1
 func main() {
-	step9()
+	step10()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -78,6 +78,7 @@ func step8() {
 	fmt.Printf("After scaling: %+v, Abs: %v\n", v, v.Abs8())
 }
 
+//9. An interface type is defined as a set of method signatures.
 func step9() {
 	var a methods.Abser
 	f := methods.MyFloat9(-math.Sqrt2)
@@ -94,5 +95,10 @@ func step9() {
 	fmt.Println(a.Abs9())
 }
 
-
+//10. Interfaces are implemented implicitly
+func step10() {
+	fmt.Printf("Step 10\n")
+	var i methods.I = methods.T{"hello"}
+	i.M()
+}
 
