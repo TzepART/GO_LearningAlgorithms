@@ -72,6 +72,7 @@ func step7() {
 //if the receiver is a large struct, for example.
 func step8() {
 	v := &methods.Vertex8{3, 4}
+	fmt.Printf("Step 8\n")
 	fmt.Printf("Before scaling: %+v, Abs: %v\n", v, v.Abs8())
 	v.Scale8(5)
 	fmt.Printf("After scaling: %+v, Abs: %v\n", v, v.Abs8())
