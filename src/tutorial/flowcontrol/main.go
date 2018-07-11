@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	step7()
+	step8()
 }
 
 //1. For
@@ -36,4 +36,9 @@ func step6()  {
 //7. If and else
 func step7()  {
 	flowcontrol.IfExample7()
+}
+
+//8. Exercise: Loops and Functions
+func step8()  {
+	flowcontrol.Exercise8()
 }
