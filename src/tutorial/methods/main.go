@@ -8,7 +8,7 @@ import (
 
 // https://tour.golang.org/methods/1
 func main() {
-	step10()
+	step11()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -102,3 +102,18 @@ func step10() {
 	i.M()
 }
 
+func step11() {
+	var i methods.I11
+
+	i = &methods.T11{"Hello"}
+	describe11(i)
+	i.M11()
+
+	i = methods.F11(math.Pi)
+	describe11(i)
+	i.M11()
+}
+
+func describe11(i methods.I11) {
+	fmt.Printf("(%v, %T)\n", i, i)
+}
