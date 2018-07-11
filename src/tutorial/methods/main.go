@@ -102,6 +102,7 @@ func step10() {
 	i.M()
 }
 
+//11. Interface values
 func step11() {
 	var i methods.I11
 
