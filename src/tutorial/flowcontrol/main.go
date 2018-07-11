@@ -5,9 +5,15 @@ import (
 )
 
 func main() {
-	step1()
+	step2()
 }
 
+//1. For
 func step1()  {
-	flowcontrol.Step1()
+	flowcontrol.ForExample1()
+}
+
+//2. For continued
+func step2()  {
+	flowcontrol.ForExample2()
 }
