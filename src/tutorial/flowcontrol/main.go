@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	step5()
+	step6()
 }
 
 //1. For
@@ -26,4 +26,9 @@ func step3()  {
 //5. If example
 func step5()  {
 	flowcontrol.IfExample5()
+}
+
+//6. If with a short statement
+func step6()  {
+	flowcontrol.IfExample6()
 }
