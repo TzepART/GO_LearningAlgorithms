@@ -21,3 +21,7 @@ type F11 float64
 func (f F11) M11() {
 	fmt.Println(f)
 }
+
+func Describe11(i I11) {
+	fmt.Printf("(%v, %T)\n", i, i)
+}

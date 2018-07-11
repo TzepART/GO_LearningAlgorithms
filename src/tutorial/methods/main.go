@@ -107,14 +107,10 @@ func step11() {
 	var i methods.I11
 
 	i = &methods.T11{"Hello"}
-	describe11(i)
+	methods.Describe11(i)
 	i.M11()
 
 	i = methods.F11(math.Pi)
-	describe11(i)
+	methods.Describe11(i)
 	i.M11()
-}
-
-func describe11(i methods.I11) {
-	fmt.Printf("(%v, %T)\n", i, i)
 }
