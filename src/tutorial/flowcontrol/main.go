@@ -23,7 +23,7 @@ func step3()  {
 	flowcontrol.ForExample3()
 }
 
-//3. For is Go's "while"
+//5. If example
 func step5()  {
 	flowcontrol.IfExample5()
 }
