@@ -35,5 +35,5 @@ func step6()  {
 
 //7. If and else
 func step7()  {
-	flowcontrol.IfExample6()
+	flowcontrol.IfExample7()
 }
