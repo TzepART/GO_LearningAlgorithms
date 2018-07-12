@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	step8()
+	step9()
 }
 
 //1. For
@@ -41,4 +41,9 @@ func step7()  {
 //8. Exercise: Loops and Functions
 func step8()  {
 	flowcontrol.Exercise8()
+}
+
+//8. Switch
+func step9()  {
+	flowcontrol.SwitchExample9()
 }
