@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	step10()
+	step11()
 }
 
 //1. For
@@ -51,4 +51,9 @@ func step9()  {
 //10. Switch evaluation order
 func step10()  {
 	flowcontrol.SwitchExample10()
+}
+
+//11. Switch with no condition
+func step11()  {
+	flowcontrol.SwitchExample11()
 }
