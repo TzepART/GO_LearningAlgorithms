@@ -3,7 +3,7 @@ package main
 import "tutorial/moretypes/packages"
 
 func main()  {
-	step4()
+	step5()
 }
 
 //1. Pointers
@@ -24,4 +24,9 @@ func step3()  {
 //4. Pointers to structs
 func step4()  {
 	moretypes.StructExample4()
+}
+
+//5. Struct Literals
+func step5()  {
+	moretypes.StructExample5()
 }
