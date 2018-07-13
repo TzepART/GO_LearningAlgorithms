@@ -3,7 +3,7 @@ package main
 import "tutorial/moretypes/packages"
 
 func main()  {
-	step7()
+	step8()
 }
 
 //1. Pointers
@@ -39,4 +39,9 @@ func step6()  {
 //7. Slices form array
 func step7()  {
 	moretypes.SliceExample7()
+}
+
+//8. Slices are like references to arrays
+func step8()  {
+	moretypes.SliceExample8()
 }
