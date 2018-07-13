@@ -2,19 +2,19 @@ package moretypes
 
 import "fmt"
 
-type MyVertex struct {
+type myVertex2 struct {
 	N int
 	M int
 }
 
-type Vertex struct {
+type vertex2 struct {
 	X int
 	Y int
 	z string
-	MV MyVertex
+	MV myVertex2
 }
 
 func StructExample2() {
-	mv := MyVertex{4,5}
-	fmt.Println(Vertex{1, 2, "Hello!", mv})
+	mv := myVertex2{4,5}
+	fmt.Println(vertex2{1, 2, "Hello!", mv})
 }
