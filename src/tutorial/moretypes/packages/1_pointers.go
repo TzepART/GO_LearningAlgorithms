@@ -2,7 +2,7 @@ package moretypes
 
 import "fmt"
 
-func ExamplePointer1() {
+func PointerExample1() {
 	i, j := 42, 2701
 
 	p := &i         // point to i
