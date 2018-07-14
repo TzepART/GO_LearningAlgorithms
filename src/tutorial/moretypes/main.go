@@ -3,7 +3,7 @@ package main
 import "tutorial/moretypes/packages"
 
 func main()  {
-	step11()
+	step12()
 }
 
 //1. Pointers
@@ -59,4 +59,9 @@ func step10()  {
 //11. Slice length and capacity
 func step11()  {
 	moretypes.SliceExample11()
+}
+
+//12. Nil slices
+func step12()  {
+	moretypes.NilExample12()
 }
