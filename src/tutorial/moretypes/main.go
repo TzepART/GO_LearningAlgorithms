@@ -3,7 +3,7 @@ package main
 import "tutorial/moretypes/packages"
 
 func main()  {
-	step15()
+	step16()
 }
 
 //1. Pointers
@@ -79,4 +79,9 @@ func step14()  {
 //15. Appending to a slice
 func step15()  {
 	moretypes.SliceExample15()
+}
+
+//16. The range form of the for loop iterates over a slice or map.
+func step16()  {
+	moretypes.RangeExample16()
 }
