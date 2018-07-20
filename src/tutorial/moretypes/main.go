@@ -105,3 +105,33 @@ func step19()  {
 func step20()  {
 	moretypes.MapExample20()
 }
+
+////
+//func step21()  {
+//	moretypes.Example21()
+//}
+//
+////
+//func step22()  {
+//	moretypes.Example22()
+//}
+//
+////
+//func step23()  {
+//	moretypes.Example23()
+//}
+//
+////
+//func step24()  {
+//	moretypes.Example24()
+//}
+//
+////
+//func step25()  {
+//	moretypes.Example25()
+//}
+//
+////
+//func step26()  {
+//	moretypes.Example26()
+//}
