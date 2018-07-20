@@ -3,7 +3,7 @@ package main
 import "tutorial/moretypes/packages"
 
 func main()  {
-	step21()
+	step22()
 }
 
 //1. Pointers
@@ -111,27 +111,27 @@ func step21()  {
 	moretypes.MapExample21()
 }
 
-//
-//func step22()  {
-//	moretypes.Example22()
-//}
-//
-////
+//22. Mutating Maps
+func step22()  {
+	moretypes.MapExample22()
+}
+
+//23.
 //func step23()  {
 //	moretypes.Example23()
 //}
 //
-////
+//24.
 //func step24()  {
 //	moretypes.Example24()
 //}
 //
-////
+//25.
 //func step25()  {
 //	moretypes.Example25()
 //}
 //
-////
+//26.
 //func step26()  {
 //	moretypes.Example26()
 //}
