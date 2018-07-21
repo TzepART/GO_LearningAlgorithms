@@ -114,3 +114,73 @@ func step11() {
 	methods_and_interfaces.Describe11(i)
 	i.M11()
 }
+
+////12.
+//func step12()  {
+//	methods_and_interfaces.Example12()
+//}
+//
+////13.
+//func step13()  {
+//	methods_and_interfaces.Example13()
+//}
+//
+////14.
+//func step14()  {
+//	methods_and_interfaces.Example14()
+//}
+//
+////15.
+//func step15()  {
+//	methods_and_interfaces.Example15()
+//}
+//
+////16.
+//func step16()  {
+//	methods_and_interfaces.Example16()
+//}
+//
+////17.
+//func step17()  {
+//	methods_and_interfaces.Example17()
+//}
+//
+////18.
+//func step18()  {
+//	methods_and_interfaces.Example18()
+//}
+//
+////19.
+//func step19()  {
+//	methods_and_interfaces.Example19()
+//}
+//
+////20.
+//func step20()  {
+//	methods_and_interfaces.Example20()
+//}
+//
+////21.
+//func step21()  {
+//	methods_and_interfaces.Example21()
+//}
+//
+////22.
+//func step22()  {
+//	methods_and_interfaces.Example22()
+//}
+//
+////23.
+//func step23()  {
+//	methods_and_interfaces.Example23()
+//}
+//
+////24.
+//func step24()  {
+//	methods_and_interfaces.Example24()
+//}
+//
+////25.
+//func step25()  {
+//	methods_and_interfaces.Example25()
+//}
