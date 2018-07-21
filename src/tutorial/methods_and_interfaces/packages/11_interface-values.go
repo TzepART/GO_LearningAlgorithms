@@ -1,4 +1,4 @@
-package methods
+package methods_and_interfaces
 
 import (
 	"fmt"
