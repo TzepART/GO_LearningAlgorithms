@@ -3,7 +3,7 @@ package main
 import "tutorial/moretypes/packages"
 
 func main()  {
-	step24()
+	step25()
 }
 
 //1. Pointers
@@ -126,11 +126,11 @@ func step24()  {
 	moretypes.FunctionExample24()
 }
 
-//25.
-//func step25()  {
-//	moretypes.Example25()
-//}
-//
+//25. Function closures
+func step25()  {
+	moretypes.FunctionClosuresExample25()
+}
+
 //26.
 //func step26()  {
 //	moretypes.Example26()
