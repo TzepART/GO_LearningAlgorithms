@@ -1,4 +1,4 @@
-package moretypes
+package go_packages
 
 import (
 	"image"

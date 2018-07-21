@@ -1,5 +1,7 @@
 package moretypes
 
+import "tutorial/go_packages"
+
 func Pic(dx, dy int) [][]uint8 {
 	pic := make([][]uint8, dy)
 
@@ -13,5 +15,5 @@ func Pic(dx, dy int) [][]uint8 {
 }
 
 func ExersiseSlice18() {
-	ShowPic(Pic)
+	go_packages.ShowPic(Pic)
 }
