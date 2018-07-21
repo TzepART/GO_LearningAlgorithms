@@ -3,7 +3,7 @@ package main
 import "tutorial/moretypes/packages"
 
 func main()  {
-	step25()
+	step26()
 }
 
 //1. Pointers
@@ -93,7 +93,7 @@ func step17()  {
 
 //18. Exercise: Slices
 func step18()  {
-	moretypes.ExersiseSlice18()
+	moretypes.ExerciseSlice18()
 }
 
 //19. Maps
@@ -118,7 +118,7 @@ func step22()  {
 
 //23. Exercise: Maps
 func step23()  {
-	moretypes.ExersiseMaps23()
+	moretypes.ExerciseMaps23()
 }
 
 //24. Function values
@@ -131,7 +131,7 @@ func step25()  {
 	moretypes.FunctionClosuresExample25()
 }
 
-//26.
-//func step26()  {
-//	moretypes.Example26()
-//}
+//26. Exercise: Fibonacci closure
+func step26()  {
+	moretypes.ExerciseClosures26()
+}

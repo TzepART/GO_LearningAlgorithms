@@ -18,6 +18,6 @@ func WordCount(s string) map[string]int {
 	return m
 }
 
-func ExersiseMaps23() {
+func ExerciseMaps23() {
 	go_packages.Test(WordCount)
 }

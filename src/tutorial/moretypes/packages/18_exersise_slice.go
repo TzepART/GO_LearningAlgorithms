@@ -14,6 +14,6 @@ func Pic(dx, dy int) [][]uint8 {
 	return pic
 }
 
-func ExersiseSlice18() {
+func ExerciseSlice18() {
 	go_packages.ShowPic(Pic)
 }
