@@ -15,3 +15,9 @@ type T struct {
 func (t T) M() {
 	fmt.Println(t.S)
 }
+
+func InterfaceExample10() {
+	fmt.Printf("Step 10\n")
+	var i I = T{"hello"}
+	i.M()
+}

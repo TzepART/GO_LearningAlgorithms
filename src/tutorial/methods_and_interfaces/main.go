@@ -1,8 +1,6 @@
 package main
 
 import (
-	"fmt"
-	"math"
 	"tutorial/methods_and_interfaces/packages"
 )
 
@@ -61,22 +59,12 @@ func step9() {
 
 //10. Interfaces are implemented implicitly
 func step10() {
-	fmt.Printf("Step 10\n")
-	var i methods_and_interfaces.I = methods_and_interfaces.T{"hello"}
-	i.M()
+	methods_and_interfaces.InterfaceExample10()
 }
 
 //11. Interface values
 func step11() {
-	var i methods_and_interfaces.I11
-
-	i = &methods_and_interfaces.T11{"Hello"}
-	methods_and_interfaces.Describe11(i)
-	i.M11()
-
-	i = methods_and_interfaces.F11(math.Pi)
-	methods_and_interfaces.Describe11(i)
-	i.M11()
+	methods_and_interfaces.InterfaceValueExample11()
 }
 
 ////12.

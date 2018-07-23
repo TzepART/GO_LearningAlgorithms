@@ -2,6 +2,7 @@ package methods_and_interfaces
 
 import (
 	"fmt"
+	"math"
 )
 
 type I11 interface {
@@ -24,4 +25,17 @@ func (f F11) M11() {
 
 func Describe11(i I11) {
 	fmt.Printf("(%v, %T)\n", i, i)
+}
+
+//11. Interface values
+func InterfaceValueExample11() {
+	var i I11
+
+	i = &T11{"Hello"}
+	Describe11(i)
+	i.M11()
+
+	i = F11(math.Pi)
+	Describe11(i)
+	i.M11()
 }
