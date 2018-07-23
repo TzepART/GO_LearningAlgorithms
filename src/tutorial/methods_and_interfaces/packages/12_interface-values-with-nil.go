@@ -3,15 +3,34 @@ package methods_and_interfaces
 import "fmt"
 
 type I12 interface {
-	M12()
+	M()
 }
 
-func NilInterfaceExample12() {
+type T12 struct {
+	S string
+}
+
+func (t *T12) M() {
+	if t == nil {
+		fmt.Println("<nil>")
+		return
+	}
+	fmt.Println(t.S)
+}
+
+func InterfaceValueExample12() {
 	var i I12
-	describe(i)
-	i.M12() // panic: runtime error: invalid memory address or nil pointer dereference
+
+	var t *T12
+	i = t
+	describe12(i)
+	i.M()
+
+	i = &T12{"hello"}
+	describe12(i)
+	i.M()
 }
 
-func describe(i I12) {
+func describe12(i I12) {
 	fmt.Printf("(%v, %T)\n", i, i)
 }
