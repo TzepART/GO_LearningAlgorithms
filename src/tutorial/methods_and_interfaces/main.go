@@ -64,16 +64,16 @@ func step11() {
 	methods_and_interfaces.InterfaceValueExample11()
 }
 
-//12. Nil interface values
+//12. Interface values with nil underlying values
 func step12()  {
-	methods_and_interfaces.NilInterfaceExample12()
+	methods_and_interfaces.InterfaceValueExample12()
 }
 
-////13.
-//func step13()  {
-//	methods_and_interfaces.Example13()
-//}
-//
+//13. Nil interface values
+func step13()  {
+	methods_and_interfaces.NilInterfaceExample13()
+}
+
 ////14.
 //func step14()  {
 //	methods_and_interfaces.Example14()
