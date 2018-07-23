@@ -43,13 +43,7 @@ func step6() {
 
 //7. The equivalent thing happens in the reverse direction.
 func step7() {
-	v7 := methods_and_interfaces.Vertex7{3, 4}
-	fmt.Println("Step 7 -", v7.Abs7())
-	fmt.Println("Step 7 -", methods_and_interfaces.AbsFunc7(v7))
-	//by pointer result similar
-	p7 := &methods_and_interfaces.Vertex7{4, 3}
-	fmt.Println("Step 7 -", p7.Abs7())
-	fmt.Println("Step 7 -", methods_and_interfaces.AbsFunc7(*p7))
+	methods_and_interfaces.MethodInderection7()
 }
 
 //8. Here are two reasons to use a pointer receiver.
@@ -57,28 +51,12 @@ func step7() {
 //The second is to avoid copying the value on each method call. This can be more efficient
 //if the receiver is a large struct, for example.
 func step8() {
-	fmt.Printf("Step 8\n")
-	v := &methods_and_interfaces.Vertex8{3, 4}
-	fmt.Printf("Before scaling: %+v, Abs: %v\n", v, v.Abs8())
-	v.Scale8(5)
-	fmt.Printf("After scaling: %+v, Abs: %v\n", v, v.Abs8())
+	methods_and_interfaces.MethodPointer8()
 }
 
 //9. An interface type is defined as a set of method signatures.
 func step9() {
-	var a methods_and_interfaces.Abser
-	f := methods_and_interfaces.MyFloat9(-math.Sqrt2)
-	v := methods_and_interfaces.Vertex9{3, 4}
-
-	a = f  // a MyFloat9 implements Abser
-	a = &v // a *Vertex9 implements Abser
-
-	// In the following line, v is a Vertex9 (not *Vertex9)
-	// and does NOT implement Abser.
-// 		a = v
-
-	fmt.Printf("Step 9\n")
-	fmt.Println(a.Abs9())
+	methods_and_interfaces.InterfaceExample9()
 }
 
 //10. Interfaces are implemented implicitly

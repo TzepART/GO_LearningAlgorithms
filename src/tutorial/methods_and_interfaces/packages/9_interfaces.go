@@ -2,6 +2,7 @@ package methods_and_interfaces
 
 import (
 	"math"
+	"fmt"
 )
 
 type Abser interface {
@@ -23,4 +24,20 @@ type Vertex9 struct {
 
 func (v *Vertex9) Abs9() float64 {
 	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+func InterfaceExample9() {
+	var a Abser
+	f := MyFloat9(-math.Sqrt2)
+	v := Vertex9{3, 4}
+
+	a = f  // a MyFloat9 implements Abser
+	a = &v // a *Vertex9 implements Abser
+
+	// In the following line, v is a Vertex9 (not *Vertex9)
+	// and does NOT implement Abser.
+	// 		a = v
+
+	fmt.Printf("Step 9\n")
+	fmt.Println(a.Abs9())
 }
