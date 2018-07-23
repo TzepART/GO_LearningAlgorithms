@@ -28,29 +28,18 @@ func step3() {
 
 //4. Declare methods_and_interfaces with pointer receivers
 func step4() {
-	v4 := methods_and_interfaces.Vertex4{3, 4}
-	v4.Scale(10)
-	fmt.Println("Step 4 -", v4.Abs4())
+	methods_and_interfaces.MethodPointer4()
 }
 
 //5. Here we see the Abs and Scale methods_and_interfaces rewritten as functions
 func step5() {
-	v5 := methods_and_interfaces.Vertex5{3, 4}
-	methods_and_interfaces.Scale5(&v5, 5)
-	fmt.Println("Step 5 -", methods_and_interfaces.Abs5(v5))
+	methods_and_interfaces.MethodPointer5()
 }
 
 //6. methods_and_interfaces and pointer indirection
 func step6() {
-	v6 := methods_and_interfaces.Vertex6{3, 4}
-	v6.Scale6(2)
-	methods_and_interfaces.ScaleFunc6(&v6, 10)
-	p := &methods_and_interfaces.Vertex6{4, 3}
-	p.Scale6(3)
-	methods_and_interfaces.ScaleFunc6(p, 8)
-	fmt.Println("Step 6 -", v6, p)
+	methods_and_interfaces.MethodInderection6()
 }
-
 
 //7. The equivalent thing happens in the reverse direction.
 func step7() {
