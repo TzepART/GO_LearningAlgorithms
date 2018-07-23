@@ -13,20 +13,17 @@ func main() {
 
 //1. Use method is a function with a special receiver argument.
 func step1()  {
-	v := methods_and_interfaces.Vertex{3, 4}
-	fmt.Println("Step 1 -",v.Abs())
+	methods_and_interfaces.MethodExample1()
 }
 
 //2. Use method is a function without a special receiver argument.
 func step2() {
-	v2 := methods_and_interfaces.Vertex2{4, 5}
-	fmt.Println("Step 2 -", methods_and_interfaces.Abs2(v2))
+	methods_and_interfaces.MethodExample2()
 }
 
 //3. Declare a method on non-struct types
 func step3() {
-	f := methods_and_interfaces.MyFloat(-math.Sqrt2)
-	fmt.Println("Step 3 -", f.Abs3())
+	methods_and_interfaces.MethodExample3()
 }
 
 //4. Declare methods_and_interfaces with pointer receivers
