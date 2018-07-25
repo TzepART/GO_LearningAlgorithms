@@ -6,7 +6,7 @@ import (
 
 // https://tour.golang.org/methods_and_interfaces/1
 func main() {
-	step15()
+	step16()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -84,11 +84,11 @@ func step15()  {
 	methods_and_interfaces.InterfaceExample15()
 }
 
-////16.
-//func step16()  {
-//	methods_and_interfaces.Example16()
-//}
-//
+//16. Type switches
+func step16()  {
+	methods_and_interfaces.TypeSwitchesExample16()
+}
+
 ////17.
 //func step17()  {
 //	methods_and_interfaces.Example17()
