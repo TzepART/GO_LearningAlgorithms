@@ -6,7 +6,7 @@ import (
 
 // https://tour.golang.org/methods_and_interfaces/1
 func main() {
-	step12()
+	step14()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -74,11 +74,11 @@ func step13()  {
 	methods_and_interfaces.NilInterfaceExample13()
 }
 
-////14.
-//func step14()  {
-//	methods_and_interfaces.Example14()
-//}
-//
+//14. The empty interface
+func step14()  {
+	methods_and_interfaces.InterfaceExample14()
+}
+
 ////15.
 //func step15()  {
 //	methods_and_interfaces.Example15()
