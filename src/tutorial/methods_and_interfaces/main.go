@@ -6,7 +6,7 @@ import (
 
 // https://tour.golang.org/methods_and_interfaces/1
 func main() {
-	step17()
+	step18()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -89,16 +89,16 @@ func step16()  {
 	methods_and_interfaces.TypeSwitchesExample16()
 }
 
-//17.
+//17. Stringers
 func step17()  {
 	methods_and_interfaces.StringerExample17()
 }
 
-////18.
-//func step18()  {
-//	methods_and_interfaces.Example18()
-//}
-//
+//18. Exercise: Stringers
+func step18()  {
+	methods_and_interfaces.StringersExercise18()
+}
+
 ////19.
 //func step19()  {
 //	methods_and_interfaces.Example19()
