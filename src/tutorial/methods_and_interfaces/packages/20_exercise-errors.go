@@ -14,7 +14,13 @@ func Sqrt(f float64) (float64, error) {
 	if f < 0 {
 		return 0, ErrNegativeSqrt(f)
 	}
-	return 0, nil
+
+	z := f
+	for i := 0; i < 10; i++ {
+		z -= (z*z - f) / (2 * z)
+	}
+
+	return z, nil
 }
 
 func ErrorExercise20() {
