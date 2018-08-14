@@ -6,11 +6,11 @@ import (
 
 // https://tour.golang.org/methods_and_interfaces/1
 func main() {
-	step18()
+	step19()
 }
 
 //1. Use method is a function with a special receiver argument.
-func step1()  {
+func step1() {
 	methods_and_interfaces.MethodExample1()
 }
 
@@ -65,45 +65,45 @@ func step11() {
 }
 
 //12. Interface values with nil underlying values
-func step12()  {
+func step12() {
 	methods_and_interfaces.InterfaceValueExample12()
 }
 
 //13. Nil interface values
-func step13()  {
+func step13() {
 	methods_and_interfaces.NilInterfaceExample13()
 }
 
 //14. The empty interface
-func step14()  {
+func step14() {
 	methods_and_interfaces.InterfaceExample14()
 }
 
 //15. Type assertions
-func step15()  {
+func step15() {
 	methods_and_interfaces.InterfaceExample15()
 }
 
 //16. Type switches
-func step16()  {
+func step16() {
 	methods_and_interfaces.TypeSwitchesExample16()
 }
 
 //17. Stringers
-func step17()  {
+func step17() {
 	methods_and_interfaces.StringerExample17()
 }
 
 //18. Exercise: Stringers
-func step18()  {
+func step18() {
 	methods_and_interfaces.StringersExercise18()
 }
 
-////19.
-//func step19()  {
-//	methods_and_interfaces.Example19()
-//}
-//
+//19. Errors
+func step19() {
+	methods_and_interfaces.ErrorExample19()
+}
+
 ////20.
 //func step20()  {
 //	methods_and_interfaces.Example20()
