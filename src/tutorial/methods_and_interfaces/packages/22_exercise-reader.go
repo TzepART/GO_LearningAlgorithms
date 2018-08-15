@@ -1,6 +1,8 @@
 package methods_and_interfaces
 
-import "tutorial/go_packages"
+import (
+	"tutorial/go_packages"
+)
 
 type MyReader struct{}
 
