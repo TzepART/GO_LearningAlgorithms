@@ -6,7 +6,7 @@ import (
 
 // https://tour.golang.org/methods_and_interfaces/1
 func main() {
-	step21()
+	step22()
 }
 
 //1. Use method is a function with a special receiver argument.
@@ -115,11 +115,11 @@ func step21() {
 	methods_and_interfaces.ReadersExample21()
 }
 
-////22.
-//func step22()  {
-//	methods_and_interfaces.Example22()
-//}
-//
+//22.
+func step22() {
+	methods_and_interfaces.ReadersExercise22()
+}
+
 ////23.
 //func step23()  {
 //	methods_and_interfaces.Example23()
